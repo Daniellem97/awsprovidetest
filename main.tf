@@ -27,6 +27,7 @@ resource "aws_s3_bucket" "orbit_storage" {
   tags = {
     name        = "Orbit Labs Storage"
     managedBy   = "Spacelift"
+    project     = "Orbit-labs"
     mission     = "First Launch"
     environment = "demo"
   }
